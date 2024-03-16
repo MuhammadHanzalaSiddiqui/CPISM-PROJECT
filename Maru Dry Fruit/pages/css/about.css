@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.heading h1 {
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.content span {
+  font-weight: bolder;
+}
+
+.main-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.content-dryfruits p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.dryfruit-image img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.image-about-2 img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.content-dryfruits p {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+
+@media (max-width:800px)and (min-width:500px) {
+  .content-dryfruits p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width:1000px)and (min-width:800px) {
+  .content-dryfruits p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .content-dryfruits p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width:1000px) {
+  .content-1 p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.content-1 p {
+  margin-right: 150px;
+  margin-left: 150px;
+  font-weight: 600;
+}
+
+.about-image img {
+  width: 100%;
+  height: 450px;
+}
+.faq a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.faq a:hover{
+  color: #008000;
+  font-weight: 900;
+}
+
+/* Custom Scrollbar  */
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #008000;
+  --sb-size: 15px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
+
+/* Custom Scrollbar  */
+
+/*-------------------------------scroll-start-----------------------------------*/
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  background-image: url('../assets/top.png');
+  width: 38px;
+  height: 38px;
+}
+
+/*----------------------------------scroll-up-end------------------------------------*/

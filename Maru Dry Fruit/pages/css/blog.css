@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*---------------------------scroll up start---------------------------------------------*/
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  background-image: url('../assets/top.png');
+  width: 38px;
+  height: 38px;
+}
+
+/*----------------------------scroll up end--------------------------------------------*/
+
+
+/*-----------------------banner-section-start---------------------------------------*/
+.img-background {
+  background: url(../assets/blogimages/blogbanner01.jpg) center/cover no-repeat;
+  height: 400px;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+
+}
+
+h1:hover {
+  color: #008000 !important;
+}
+
+/*---------------------------banner-section-end-----------------------------------*/
+/*------------------------------collection+brand--------------------------------------*/
+
+.card-collection {
+  border: none;
+}
+
+.card-collection p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.card-collection img {
+  height: 380px;
+
+}
+
+.card-brand {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.card-brand p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+.card-brand img {
+  height: 380px;
+  margin-left: 20px;
+}
+
+/*--------------------------collection+brand end-----------------------------------------*/
+
+/*---------------------------------------swiper-section---------------------------------*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper .card {
+  border: none;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-left: 18px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.card-text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 2px;
+}
+
+/*--------------------------------------------swiper-end----------------------------------*/
+/*---------------------------carousel-section-------------------------------------------*/
+.carousel-item h5 {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+
+.carousel-item p {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+
+/*---------------------------------------------carousel-section-end----------------------*/
+/*----------------------------scroll-bar-------------------------------------------------*/
+
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #008000;
+  --sb-size: 15px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+      scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+/*-----------------------scroll-bar-end---------------------------------------------------*/

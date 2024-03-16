@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#image-1 {
+    width: 300px;
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 55px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(0, 0, 0);
+
+}
+
+h5 {
+    text-align: center;
+}
+
+.iframe {
+    margin-top: 30px;
+    height: 400px;
+}
+
+.user-input {
+    height: 400px;
+}
+body {
+    --sb-track-color: #ffffff;
+    --sb-thumb-color: #008000;
+    --sb-size: 15px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 10px;
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color)
+                       var(--sb-track-color);
+    }
+  }
+    /*-------------------------------scroll-start-----------------------------------*/
+    #scrollUp {
+      bottom: 20px;
+      right: 20px;
+      background-image: url('../assets/top.png');
+      width: 38px;
+      height: 38px;
+    }
+    
+    /*----------------------------------scroll-up-end------------------------------------*/

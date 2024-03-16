@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------------scroll up start------------------------------------*/
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    background-image: url('../assets/top.png');
+    width: 38px;
+    height: 38px;
+}
+
+/*----------------------------scroll up end-------------------------------------------*/
+
+
+.product_details{
+  font-family: 'Playfair Display', serif;
+}
+.product_details h4:hover{
+  color: #008000 !important;
+
+}  
+.product_details h2:hover{
+  color: #008000 !important;
+}
+#details{
+  font-size: 20px;
+  font-weight: 400;
+}
+label{
+  font-family: 'Playfair Display', serif;
+
+}
+button{
+  font-family: 'Playfair Display', serif !important;
+}
+h1{
+  font-family: 'Playfair Display', serif; 
+
+}
+
+h1:hover{
+  color: #008000 !important;
+}
+/*----------------------------banner-section------------------------------------------*/
+.img-background {
+  background: url(../assets/individual-page/indi-banner1.jpg) center/cover no-repeat;
+  height: 400px;
+  width: 100%;
+}
+/*--------------------------------------banner-section-end----------------------------*/
+button{
+  font-family: 'Playfair Display', serif!important;
+  font-size: 18px!important;
+  font-weight: 500!important;
+  /* color: black!important; */
+
+}
+/*----------------------------------scroll-bar---------------------------------------*/
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #008000;
+  --sb-size: 15px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+      scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+  /*---------------------------------scroll-bar-end-----------------------------------*/
